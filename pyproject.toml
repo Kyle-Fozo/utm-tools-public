@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+name = "Aruba_Provision_CPSEC_Whitelist"
+version = "1.0"
+description = "Aruba_Provision_CPSEC_Whitelist"
+authors = [
+  { name = "Kyle Fozo", email = "kyle.fozo@utoronto.ca" }, 
+  { name = "University of Toronto Governing Council", email = "governing.council@utoronto.ca" }
+]
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+  "utsc.core",
+  "typer",
+]
