@@ -2,6 +2,10 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
+[tool.hatch.build]
+include = [
+  "*.py",
+]
 
 [project]
 name = "Aruba_Provision_CPSEC_Whitelist"
