@@ -17,3 +17,6 @@ dependencies = [
   "utsc.core",
   "typer",
 ]
+
+[project.scripts]
+Aruba_Provision_CPSEC_Whitelist = "Aruba_Provision_CPSEC_Whitelist:run"
