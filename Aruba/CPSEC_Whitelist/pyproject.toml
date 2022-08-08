@@ -15,7 +15,7 @@ authors = [
   { name = "Kyle Fozo", email = "kyle.fozo@utoronto.ca" }, 
   { name = "University of Toronto Governing Council", email = "governing.council@utoronto.ca" }
 ]
-license = "MIT"
+license.text = "MIT"
 requires-python = ">=3.10"
 dependencies = [
   "utsc.core",
